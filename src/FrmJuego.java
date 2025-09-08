@@ -84,15 +84,15 @@ public class FrmJuego extends JFrame {
         case 0:
             JOptionPane.showMessageDialog(null,
                 jugador1.getGrupos() + "\n" +
-                jugador1.getEscaleras()+ jugador1.getSobrantesFinales() + jugador1.getPuntosSobrantesFinales()  );
+                jugador1.getEscaleras()+ jugador1.getSobrantesFinales() + jugador1.getPuntaje()  );
             break;
         case 1:
             JOptionPane.showMessageDialog(null,
                 jugador2.getGrupos() + "\n" +
-                jugador2.getEscaleras() + jugador2.getSobrantesFinales() + jugador2.getPuntosSobrantesFinales() );
+                jugador2.getEscaleras() + jugador2.getSobrantesFinales() + jugador2.getPuntaje() );
                 
             break;
-    }
- }   
+        }
+    }   
 
 }

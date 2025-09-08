@@ -179,7 +179,7 @@ public class Jugador {
 
 // Calcula el puntaje final del jugador
 
-public String getPuntosSobrantesFinales() {
+public String getPuntaje() {
     int total = 0;
     for (int i = 0; i < totalSobrantesFinales; i++) {
         Carta c = sobrantesFinales[i];
